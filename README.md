@@ -35,3 +35,7 @@ para borrarla es git branch -d nombreBranch
 
 -para hacer el Merge efectivo:
 git merge -nombreBranch
+
+despues le mandas push
+Una vez que se actualizó, podés borrar la branch con el git branch -d nombreBranch
+
