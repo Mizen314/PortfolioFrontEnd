@@ -24,4 +24,7 @@ git commit -m "mensaje"
 Si modificas desde la web, directamente hacer el pull.
 Ahora probando al revés.
 
-11-11 - Ahora se intenta usar una branch-
+11-11 - Ahora se intenta usar una branch-Primero hay que crear la branch con -git branch nombreBranch
+Primero hay que crear la branch con -git branch nombreBranch ls
+
+Esto es una prieba para hacer el merge
