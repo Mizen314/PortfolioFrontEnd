@@ -32,3 +32,6 @@ Esto es una prieba para hacer el merge
 para crear una branch es con git branch nombreBranch
 para borrarla es git branch -d nombreBranch
 
+
+-para hacer el Merge efectivo:
+git merge -nombreBranch
