@@ -28,3 +28,7 @@ Ahora probando al revés.
 Primero hay que crear la branch con -git branch nombreBranch ls
 
 Esto es una prieba para hacer el merge
+
+para crear una branch es con git branch nombreBranch
+para borrarla es git branch -d nombreBranch
+
