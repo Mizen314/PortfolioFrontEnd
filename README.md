@@ -39,3 +39,12 @@ git merge -nombreBranch
 despues le mandas push
 Una vez que se actualizó, podés borrar la branch con el git branch -d nombreBranch
 
+Branches
+Ver branches - git branch
+Crear branch - git branch "nombre"
+Borrar branch - git -d branch "nombre"
+Borrar definitivamente y sin vueltas una branch - git branch -D "nombre"
+cambiar nombre - git branch -m nombre branch
+listar todas las branches - git branch -a
+
+
