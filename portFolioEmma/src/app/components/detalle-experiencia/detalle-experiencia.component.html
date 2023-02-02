@@ -1,0 +1,11 @@
+<div *ngIf="experiencia" class="container">
+    <h4>{{experiencia.empresa}} - <span>{{experiencia.posicion}}</span></h4>
+    <p class="detalles"><span>{{experiencia.fechaInicio}}</span>-<span>{{experiencia.fechaFin}}</span></p>
+    <div>
+        <p class="detalles">{{experiencia.funciones}}</p>
+    </div>
+    <div class="containerB">
+        <button type="button" class="btn btn-danger " aria-label="Close" (click)="volver()">Volver</button>
+    </div>
+    
+</div>

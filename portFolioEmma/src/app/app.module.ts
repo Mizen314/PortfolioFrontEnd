@@ -3,18 +3,24 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BarraNavComponent } from './barra-nav/barra-nav.component';
 import { CarrouselComponent } from './carrousel/carrousel.component';
-import { AboutMeComponent } from './about-me/about-me.component';
 import { ExperienciaLaboralComponent } from './experiencia-laboral/experiencia-laboral.component';
+import { DetalleExperienciaComponent } from './components/detalle-experiencia/detalle-experiencia.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { BarraNavComponent } from './components/barra-nav/barra-nav.component';
+import { AboutMeComponent } from './components/about-me/about-me.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BarraNavComponent,
     CarrouselComponent,
-    AboutMeComponent,
     ExperienciaLaboralComponent,
+    DetalleExperienciaComponent,
+    DashboardComponent,
+    BarraNavComponent,
+    AboutMeComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

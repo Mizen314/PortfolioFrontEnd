@@ -1,0 +1,24 @@
+
+.loopLi {
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    margin-bottom: 0.1rem;
+}
+
+.loopLi a {
+    color:whitesmoke;
+    text-decoration: none;
+    
+}
+.listado {
+    display: inline-flex;
+}
+.detalles {
+    font-size: 1.15em;
+}
+.seccionExperienciaLaboral {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
