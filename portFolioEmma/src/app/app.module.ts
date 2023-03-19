@@ -10,6 +10,8 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { BarraNavComponent } from './components/barra-nav/barra-nav.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { LoginComponent } from './login/login.component';
+import { IniciarSesionComponent } from './components/iniciar-sesion/iniciar-sesion.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { FooterComponent } from './components/footer/footer.component';
     BarraNavComponent,
     AboutMeComponent,
     FooterComponent,
+    LoginComponent,
+    IniciarSesionComponent,
   ],
   imports: [
     BrowserModule,
