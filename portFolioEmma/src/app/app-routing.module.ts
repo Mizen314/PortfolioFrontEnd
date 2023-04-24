@@ -11,7 +11,8 @@ const routes: Routes = [
   {path: 'experiencias', component: ExperienciaLaboralComponent},
   {path: 'dashboard', component: DashboardComponent},
   {path: 'details/:id', component: DetalleExperienciaComponent},
-  {path: 'carrousel', component: CarrouselComponent}
+  {path: 'carrousel', component: CarrouselComponent},
+
 ]
 
 @NgModule({

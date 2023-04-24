@@ -10,8 +10,9 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { BarraNavComponent } from './components/barra-nav/barra-nav.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { LoginComponent } from './login/login.component';
-import { IniciarSesionComponent } from './components/iniciar-sesion/iniciar-sesion.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -23,12 +24,14 @@ import { IniciarSesionComponent } from './components/iniciar-sesion/iniciar-sesi
     BarraNavComponent,
     AboutMeComponent,
     FooterComponent,
-    LoginComponent,
-    IniciarSesionComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    ReactiveFormsModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

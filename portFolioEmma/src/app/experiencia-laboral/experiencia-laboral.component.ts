@@ -23,7 +23,5 @@ export class ExperienciaLaboralComponent implements OnInit  {
       this.experienciaService.getExperiencias()
       .subscribe( experiencias => this.experiencias = experiencias);
     }
-
-   
 }
 
