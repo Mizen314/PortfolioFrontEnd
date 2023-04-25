@@ -1,10 +1,21 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { AboutMeService } from 'src/app/services/about-me.service';
 
 @Component({
   selector: 'app-about-me',
   templateUrl: './about-me.component.html',
   styleUrls: ['./about-me.component.css']
 })
-export class AboutMeComponent {
-  acercaDeMi:string= " Mi nombre es Emmanuel Gargiulo Urdnaivia.Soy un profesional de Marketing, orientado al Desarrollo web y el Marketing Digital. Actualmente, me estoy especializando el de desarollo web Full Stack, mediante el Argentina Programa y este es mi PortFolio Web."
+export class AboutMeComponent implements OnInit {
+  miPersona: any;
+
+  constructor(private datosPersona: AboutMeService ) {
+  }
+
+  ngOnInit(): void {
+      this.datosPersona.obtenerDatos().subscribe(data => {
+        this.miPersona = data;
+  });
+
+}
 }
