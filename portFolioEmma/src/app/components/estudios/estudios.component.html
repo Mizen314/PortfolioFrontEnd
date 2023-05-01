@@ -1,0 +1,18 @@
+<div class="col">
+  <div class="">
+    <div class="">
+      <h5 class="">Estudios</h5>
+      <div class="container mt-3" >
+        <ul class="list-group ">
+          <li class="list-group-item" *ngFor="let est of estudiosList"> 
+            <div>
+              <h5><strong>{{est.titulo}}</strong></h5>
+              <p>{{est.fechaInicio}} al {{est.fechaFin}}</p>
+              <p>{{est.institucion}}</p>  
+            </div> 
+            </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>

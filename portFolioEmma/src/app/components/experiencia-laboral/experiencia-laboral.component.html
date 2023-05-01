@@ -1,0 +1,36 @@
+<div class="container seccion mt-3 mb-5">
+  <div class="seccionExperienciaLaboral">
+    <h2>Experiencia Laboral</h2>
+  </div>
+  <div class="card card-exp " *ngFor="let experiencia of experienceList?.reverse()" >
+    <h5 class="card-header text-bg-dark ">{{ experiencia.posicion }}</h5>
+    <div class="card-body">
+      <h5 class="card-title">{{ experiencia.empresa }}</h5>
+      <p class="detalles">
+        <span *ngIf="experiencia.fechaFin; else actualidad">{{ experiencia.fechaFin }}</span> - <span>{{ experiencia.fechaInicio }}</span>
+        <ng-template #actualidad>Actualidad</ng-template>
+    </p>
+      <p class="card-text">{{experiencia.funciones}}</p>
+    </div>
+  </div>
+  
+</div>
+
+<!--
+<div *ngIf="obtenerExperiencia()" class="container">
+    <h4>{{experiencia.empresa}} - <span>{{experiencia.posicion}}</span></h4>
+    <p class="detalles"><span>{{experiencia.fechaInicio}}</span>-<span>{{experiencia.fechaFin}}</span></p>
+    <div>
+        <p class="detalles">{{experiencia.funciones}}</p>
+    </div>
+    <div class="containerB">
+        <button type="button" class="btn btn-danger " aria-label="Close" (click)="volver()">Volver</button>
+    </div>
+    
+</div>
+-->
+
+
+
+
+ 

@@ -1,0 +1,14 @@
+.seccionExperienciaLaboral {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.card-exp {
+    margin-bottom: 2rem;
+    
+}
+
+.seccion {
+    width: 100vh;
+}
