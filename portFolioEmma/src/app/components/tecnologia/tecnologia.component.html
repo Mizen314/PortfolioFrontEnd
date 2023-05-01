@@ -1,42 +1,46 @@
 <div class="col">
-    <div class="" >
-      <div class="">
-        <h5 class="">Algunas de las tecnologías que manejo</h5>
-        <div class="container mt-3 ">
-          <div class="row justify-items-center align-items-center mb-3">
-                  <div class="col">
-                      <img [src]="tecnologiaList[0].urlIcono" alt="" width="40"> <span>{{tecnologiaList[0].nombreTecnologia}}</span>
-                  </div>
-                  <div class="col">
-                      <div class="row justify-items-center ">
-                          <div class="col" >
-                            <img [src]="tecnologiaList[1].urlIcono" alt="" width="40"> <span>{{tecnologiaList[1].nombreTecnologia}}</span>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="row justify-items-center mb-3">
-                  <div class="col">
-                    <img [src]="tecnologiaList[2].urlIcono" alt="" width="40"> <span>{{tecnologiaList[2].nombreTecnologia}}</span>
-                  </div>
-                  <div class="col"> 
-                    <img [src]="tecnologiaList[3].urlIcono" alt="" width="40"> <span>{{tecnologiaList[3].nombreTecnologia}}</span>
-                  </div>
-              </div>
-              <div class="row justify-items-center mb-3">
-                  <div class="col">
-                    <img [src]="tecnologiaList[4].urlIcono" alt="" width="40"> <span>{{tecnologiaList[4].nombreTecnologia}}</span>                    </div>
-
-                  <div class="col">
-                    <img [src]="tecnologiaList[5].urlIcono" alt="" width="40"> <span>{{tecnologiaList[5].nombreTecnologia}}</span>                  </div>
-                  </div>
-              <div class="row justify-items-center mb-3">
-                <div class="col">
-                  <img [src]="tecnologiaList[6].urlIcono" alt="" width="40"> <span>{{tecnologiaList[6].nombreTecnologia}}</span>                  </div>
-                  <div class="col">
-                  </div>
-            </div>
+  <div class="">
+    <div class="">
+      <h5 class="">Algunas de las tecnologías que manejo</h5>
+      <div class="container mt-3">
+        <div class="row justify-items-center mb-3">
+          <div class="col">
+            <img [src]="tecnologiaList[0]?.urlIcono" alt="iconoHtml" width="40" />
+            <span [innerText]="tecnologiaList[0]?.nombreTecnologia"></span>
           </div>
-        </div>     
+          <div class="col">
+            <img [src]="tecnologiaList[1]?.urlIcono" alt="" width="40" />
+            <span>{{ tecnologiaList[1]?.nombreTecnologia }}</span>
+          </div>
+        </div>
+        <div class="row justify-items-center mb-3">
+          <div class="col">
+            <img [src]="tecnologiaList[2]?.urlIcono" alt="" width="40" />
+            <span>{{ tecnologiaList[2]?.nombreTecnologia }}</span>
+          </div>
+          <div class="col">
+            <img [src]="tecnologiaList[3]?.urlIcono" alt="" width="40" />
+            <span>{{ tecnologiaList[3]?.nombreTecnologia }}</span>
+          </div>
+        </div>
+        <div class="row justify-items-center mb-3">
+          <div class="col">
+            <img [src]="tecnologiaList[4]?.urlIcono" alt="" width="40" />
+            <span>{{ tecnologiaList[4]?.nombreTecnologia }}</span>
+          </div>
+          <div class="col">
+            <img [src]="tecnologiaList[5]?.urlIcono" alt="" width="40" />
+            <span>{{ tecnologiaList[5]?.nombreTecnologia }}</span>
+          </div>
+        </div>
+        <div class="row justify-items-center mb-3">
+          <div class="col">
+            <img [src]="tecnologiaList[6]?.urlIcono" alt="" width="40" />
+            <span>{{ tecnologiaList[6]?.nombreTecnologia }}</span>
+          </div>
+          <div class="col"></div>
+        </div>
       </div>
     </div>
+  </div>
+</div>

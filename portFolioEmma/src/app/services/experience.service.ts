@@ -5,11 +5,17 @@ import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class TecnologiaService {
+export class ExperienceService {
 
   constructor(private http:HttpClient) { }
 
   obtenerDatos(): Observable<any> {
-    return this.http.get('http://localhost:8081/api/tecnologia')
+    console.log("funciona serv")
+    return this.http.get('http://localhost:8081/api/experiencia')
   }
+
+  obtenerDatosId(id:number): Observable<any> {
+    return this.http.get(`http://localhost:8081/api/experiencia/id`,)
+  }
+
 }

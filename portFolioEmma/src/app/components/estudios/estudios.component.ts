@@ -7,7 +7,7 @@ import { EstudiosService } from 'src/app/services/estudios.service';
   styleUrls: ['./estudios.component.css']
 })
 export class EstudiosComponent implements OnInit {
-    estudiosList: any;
+    estudiosList?: any = [] ;
     
     constructor(private estudiosPort: EstudiosService) {}
     

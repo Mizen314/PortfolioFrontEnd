@@ -7,7 +7,7 @@ import { TecnologiaService } from 'src/app/services/tecnologia.service';
   styleUrls: ['./tecnologia.component.css']
 })
 export class TecnologiaComponent implements OnInit {
-  tecnologiaList: any;
+  tecnologiaList: any = [];
   
   constructor(private tecnologiaPort: TecnologiaService) {}
   
