@@ -1,0 +1,5 @@
+com\bazar\BazarDTO\BazarDtoApplication.class
+com\bazar\BazarDTO\model\Instrumento.class
+com\bazar\BazarDTO\alumnosDTO\AlumnosDTO.class
+com\bazar\BazarDTO\alumnosDTO\InstrumentosDTO.class
+com\bazar\BazarDTO\model\Alumno.class
