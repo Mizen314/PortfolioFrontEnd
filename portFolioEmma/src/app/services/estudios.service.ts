@@ -10,6 +10,6 @@ export class EstudiosService {
   constructor(private http:HttpClient) { }
 
   obtenerDatos(): Observable<any> {
-    return this.http.get('http://localhost:8081/api/estudio')
+    return this.http.get('https://ap-backend-7mxz.onrender.com/api/estudio')
   }
 }

@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/port-folio-emma",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

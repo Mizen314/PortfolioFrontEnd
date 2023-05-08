@@ -11,11 +11,11 @@ export class ExperienceService {
 
   obtenerDatos(): Observable<any> {
     console.log("funciona serv")
-    return this.http.get('http://localhost:8081/api/experiencia')
+    return this.http.get('https://ap-backend-7mxz.onrender.com/api/experiencia')
   }
 
   obtenerDatosId(id:number): Observable<any> {
-    return this.http.get(`http://localhost:8081/api/experiencia/id`,)
+    return this.http.get(`https://ap-backend-7mxz.onrender.com/api/experiencia/id`)
   }
 
 }
