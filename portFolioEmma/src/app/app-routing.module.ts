@@ -7,8 +7,7 @@ import { IniciarSesionComponent} from './components/iniciar-sesion/iniciar-sesio
 import { GuardGuard } from './services/guard.guard';
 
 const routes: Routes = [
-  {path: '', redirectTo: 'iniciar-sesion', pathMatch: 'full'},
-  {path: 'iniciar-sesion', component:IniciarSesionComponent},
+  {path: '', redirectTo: 'dashboard', pathMatch: 'full'},
   {path: 'dashboard', component: DashboardComponent},
 ]
 
