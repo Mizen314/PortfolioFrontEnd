@@ -5,10 +5,13 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { CarrouselComponent } from './carrousel/carrousel.component';
 import { IniciarSesionComponent} from './components/iniciar-sesion/iniciar-sesion.component';
 import { GuardGuard } from './services/guard.guard';
-
+import {ContactoComponent} from './components/contacto/contacto.component'
+ 
 const routes: Routes = [
-  {path: '', redirectTo: 'dashboard', pathMatch: 'full'},
+  {path: '', redirectTo: 'iniciar-sesion', pathMatch: 'full'},
   {path: 'dashboard', component: DashboardComponent},
+  {path: 'iniciar-sesion', component: IniciarSesionComponent},
+  {path: 'contacto', component: ContactoComponent}
 ]
 
 @NgModule({
