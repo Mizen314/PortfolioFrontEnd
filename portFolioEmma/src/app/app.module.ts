@@ -10,6 +10,7 @@ import { BarraNavComponent } from './components/barra-nav/barra-nav.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ContactoComponent } from './components/contacto/contacto.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     DashboardComponent,
     BarraNavComponent,
     AboutMeComponent,
+    ContactoComponent,
     
   ],
   imports: [

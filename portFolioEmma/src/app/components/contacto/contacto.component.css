@@ -1,0 +1,11 @@
+.contacto {
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 50px;
+}
+.socialIcons {
+    margin-right: 4px;
+    font-size: 20px;
+}

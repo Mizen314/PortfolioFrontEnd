@@ -5,6 +5,7 @@ import { ExperienciaService } from './services/experiencia.service';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { DetalleExperienciaComponent } from './components/detalle-experiencia/detalle-experiencia.component';
 import { CarrouselComponent } from './carrousel/carrousel.component';
+import { ContactoComponent } from './components/contacto/contacto.component';
 
 const routes: Routes = [
   {path: '', redirectTo: 'dashboard', pathMatch: 'full'},
@@ -12,6 +13,7 @@ const routes: Routes = [
   {path: 'dashboard', component: DashboardComponent},
   {path: 'details/:id', component: DetalleExperienciaComponent},
   {path: 'carrousel', component: CarrouselComponent},
+  {path: 'contacto', component: ContactoComponent}
 
 ]
 
