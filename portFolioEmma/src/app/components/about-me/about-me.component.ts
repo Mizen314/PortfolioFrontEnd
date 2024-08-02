@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./about-me.component.css']
 })
 export class AboutMeComponent {
-  acercaDeMi:string= " Mi nombre es Emmanuel Gargiulo Urdnaivia.Soy un profesional de Marketing, orientado al Desarrollo web y el Marketing Digital. Actualmente, me estoy especializando el de desarollo web Full Stack, mediante el Argentina Programa y este es mi PortFolio Web."
+  acercaDeMi:string= " Mi nombre es Emmanuel Gargiulo Urdanivia y soy Analista de datos, orientado al Desarrollo web. Actualmente, me estoy especializando el de desarollo en la medición de activos digitales con Google Analytics (tagging)."
 }

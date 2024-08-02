@@ -5,5 +5,6 @@ export interface Experiencia {
     fechaFin?: string,
     empresa?: string,
     posicion:string,
-    funciones: string
+    funciones: string,
+    capacidades: string
 }
